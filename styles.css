@@ -1,0 +1,137 @@
+/* General Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Body Styling */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* Header */
+.site-header {
+  background-color: #4CAF50;
+  color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 2px solid #388E3C;
+  border-radius: 5px;
+}
+
+/* Navigation Buttons */
+.main-nav button {
+  margin-right: 10px;
+  padding: 10px 15px;
+  border: none;
+  background-color: white;
+  color: #4CAF50;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.main-nav button:hover {
+  background-color: #e8f5e9;
+}
+
+/* Hero Section */
+.hero {
+  background-color: #e0f7fa;
+  padding: 30px;
+  margin-bottom: 20px;
+  border: 1px solid #81d4fa;
+  border-radius: 5px;
+  text-align: center;
+}
+
+/* Content Section */
+.content {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+/* Card Styling */
+.card {
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 15px;
+  width: calc(50% - 20px);
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+  border-radius: 5px;
+}
+
+/* Features Section */
+.features {
+  background-color: #fff3e0;
+  padding: 20px;
+  border: 1px solid #ffcc80;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+
+.features ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.features li {
+  margin-bottom: 10px;
+}
+
+/* Contact Section */
+.contact {
+  background-color: #ede7f6;
+  padding: 20px;
+  border: 1px solid #b39ddb;
+  border-radius: 5px;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact label {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.contact input,
+.contact textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact button {
+  margin-top: 15px;
+  padding: 10px;
+  background-color: #673ab7;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact button:hover {
+  background-color: #5e35b1;
+}
+
+/* Footer */
+.site-footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #ddd;
+  border-top: 1px solid #bbb;
+  margin-top: 40px;
+  border-radius: 5px;
+}
